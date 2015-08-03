@@ -25,6 +25,18 @@
 
         .iconfont{font-family:"iconfont";
             font-size:16px;font-style:normal;}
+
+
+
+        a>:hover{
+
+
+
+        }
+
+
+
+
     </style>
 
 
@@ -32,50 +44,132 @@
 </head>
 <body style="font-family: 'Microsoft YaHei'">
 
-<div class="container">
-    <div class="row">
-        <div class="panel panel-body text-lg">
-            <div style="float: left"><span class="text-primary">花旗银行</span>|<span>前端WEB工程师</span></div>
-            <div style="float: right"><span class="text-right text-primary h3">1</span><span>/20</span></div>
+<div class="container show-modal">
+    <!--<div class="row">-->
+        <!--<a href="6.%20Answer%20sheet.html">-->
+            <!--<div class="panel panel-body text-lg">-->
+                <!--<div style="float: left"><span class="text-primary">花旗银行</span>|<span>前端WEB工程师</span></div>-->
+                <!--<div style="float: right"><span class="text-right text-primary h3">1</span><span>/20</span></div>-->
+            <!--</div>-->
+        <!--</a>-->
+    <!--</div>-->
 
-        </div>
+    <div class="row">
+        <a href="6.%20Answer%20sheet.html" data-toggle="modal" data-target="#myModal1">
+            <div class="panel panel-body text-lg">
+                <div style="float: left"><span class="text-primary">花旗银行</span>|<span>前端WEB工程师</span></div>
+                <div style="float: right"><span class="text-right text-primary h3">1</span><span>/20</span></div>
+            </div>
+        </a>
     </div>
+
+
+
+
+
+
     <div class="col-xs-12">
-        <ul class="list-unstyled panel panel-body">
-            <a href="#">
-                <li ><span>
-                    <i class="iconfont">&#xe604;</i>
-                    JScript是JavaScript的简称</span>
-                </li>
-            </a>
-            <br/>
-            <a href="#">
-                <li>
-                    <i class="iconfont">&#xe605;</i>
-                    <span>javascript是网景公司开发的一种java脚本语言，其目的是为了简化java的开发难度</span>
-                </li>
-            </a>
-            <br/>
-            <a href="#">
-                <li>
-                    <i class="iconfont">&#xe606;</i>
-                    <span>Firefox和IE存在大量兼容性问题的主要原因在于他们对JavaScript的支持不同上</span>
-                </li>
-            </a>
-            <br/>
-            <a href="#">
-                <li>
-                    <i class="iconfont">&#xe607;</i>
-                    <span>AJAX技术一定要使用JavaScript</span>
-                </li>
-            </a>
-            <br/>
-        </ul>
+            <ul class="list-unstyled panel panel-body">
+                <a href="#">
+                    <li ><span>
+                        <i class="iconfont">&#xe602;</i>
+                        JScript是JavaScript的简称</span>
+                    </li>
+                </a>
+                <hr/>
+                <a href="#" class="">
+                    <li>
+                        <i class="iconfont">&#xe600;</i>
+                        <span>javascript是网景公司开发的一种java脚本语言，其目的是为了简化java的开发难度</span>
+                    </li>
+                </a>
+                <hr/>
+                <a href="#" class="">
+                    <li>
+                        <i class="iconfont">&#xe601;</i>
+                        <span>Firefox和IE存在大量兼容性问题的主要原因在于他们对JavaScript的支持不同上</span>
+                    </li>
+                </a>
+                <hr/>
+                <a href="#" class="">
+                    <li>
+                        <i class="iconfont">&#xe603;</i>
+                        <span>AJAX技术一定要使用JavaScript</span>
+                    </li>
+                </a>
+                <br/>
+            </ul>
+
+
+
     </div>
 </div>
 
 
 
+
+
+
+<!--模态框-->
+<div class="modal fade m-t-lg" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  style="opacity: 0.92">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                    <div class="panel panel-body text-lg">
+                        <div><span class="text-right text-primary h3">18</span><span>/20</span></div>
+                    </div>
+                    <div class="col-xs-12 btn-lg text-center">
+                            <div class="m-t-md">
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm m-l-md">06</button>
+                                <button type="button" class="btn btn-default btn-icon btn-rounded m-r-sm">07</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">08</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">09</button>
+
+                            </div>
+
+                            <div class="m-t-md">
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm m-l-md">11</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">12</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">13</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">14</button>
+                            </div>
+
+                            <div class="m-t-md m-b-md">
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm m-l-md">16</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">17</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">18</button>
+                                <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-sm">19</button>
+                            </div>
+                    </div>
+                    <a href="#">
+                        <button type="submit" class="btn btn-default  center-block" data-toggle="modal" data-target="#myModal2">提交答题卡</button>
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade m-t-lg" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="opacity: 0.92;margin-top: 380px">
+
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-body" style="height: 150px">
+                <h4>确定提交答案吗？</h4>
+                <div class="m-t-xl"></div>
+                <div class="btn-group">
+
+                </div>
+                <button type="button" class="btn btn-default col-xs-6" data-dismiss="modal">我再检查看看</button>
+                <a href="7.%20Test%20record.html">
+                    <button type="button" class="btn btn-primary col-xs-6">我确定！</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--模态框-->
 
 
 
