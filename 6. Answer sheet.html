@@ -10,21 +10,6 @@
 
     <style type="text/css">
 
-
-        @font-face {
-            font-family: 'iconfont';
-            src: url('../！web端考试/assets/iconfont/one/iconfont.eot'); /* IE9*/
-            src: url('../！web端考试/assets/iconfont/one/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-            url('../！web端考试/assets/iconfont/one/iconfont.woff') format('woff'), /* chrome、firefox */
-            url('../！web端考试/assets/iconfont/one/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-            url('../！web端考试/assets/iconfont/one/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
-        }
-
-
-
-
-        .iconfont{font-family:"iconfont";
-            font-size:16px;font-style:normal;}
     </style>
 
 
@@ -41,7 +26,9 @@
     </div>
     <div class="col-xs-12 panel panel-body">
         <div class="m-t-md">
+            <a href="5.%20Testing.html">
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md m-l-md">01</button>
+            </a>
             <button type="button" class="btn btn-default btn-icon btn-rounded m-r-md">02</button>
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md">03</button>
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md">04</button>
@@ -63,6 +50,7 @@
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md">14</button>
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md">15</button>
         </div>
+
         <div class="m-t-md m-b-md">
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md m-l-md">16</button>
             <button type="button" class="btn btn-primary btn-icon btn-rounded m-r-md">17</button>
@@ -73,13 +61,28 @@
 
     </div>
     <a href="#">
-        <button type="submit" class="btn btn-default btn-primary center-block">提交答题卡</button>
+        <button type="submit" class="btn btn-default btn-primary center-block" data-toggle="modal" data-target="#myModal">提交答题卡</button>
     </a>
 </div>
 
 
 
-
+<!--模态框-->
+<div class="modal fade m-t-xl" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-body" style="height: 150px">
+                <h4>确定提交答案吗？</h4>
+                <div class="m-t-xl"></div>
+                <button type="button" class="btn btn-default col-xs-6" data-dismiss="modal">我再检查看看</button>
+                <a href="7.%20Test%20record.html">
+                    <button type="button" class="btn btn-primary col-xs-6">我确定！</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--模态框-->
 
 
 

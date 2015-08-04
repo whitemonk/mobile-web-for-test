@@ -9,6 +9,33 @@
     <link rel="stylesheet" href="css/app.css" type="text/css"/>
 
     <style type="text/css">
+        @font-face {
+            font-family: 'iconfont';
+            src: url('../mobile-web-for-test/assets/iconfont/one/iconfont.eot'); /* IE9*/
+            src: url('../mobile-web-for-test/assets/iconfont/one/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../mobile-web-for-test/assets/iconfont/one/iconfont.woff') format('woff'), /* chrome、firefox */
+            url('../mobile-web-for-test/assets/iconfont/one/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url('../mobile-web-for-test/assets/iconfont/one/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+
+
+
+        .iconfont{font-family:"iconfont";
+            font-size:16px;font-style:normal;
+        }
+
+        .cutline {
+            width: 1px;
+            height: 45px;
+            background-color: #DADADA;
+            position: absolute;
+            margin-left: 185px;
+            margin-top: 3px;
+            text-align: center;
+            opacity: 0.5;
+            margin-left: 45%;
+        }
 
     </style>
 
@@ -24,26 +51,43 @@
         <!--基础表单-->
         <div class="col-xs-12 text-center">
 
-            <div class="panel panel-body">
-                <div class="h3 text-center">前端方向</div>
-                <hr/>
-                <div>
-                    <div class="col-xs-6">答题时间</div>
-                    <div class="col-xs-6">考试题目</div>
+            <div class="panel">
+                <div class="h4 text-center panel panel-heading bg-primary text-white">
+                    UI设计师
                 </div>
+                <div class="panel-body">
+                    <div class="cutline "></div>
+                    <div>
+                        <div class="col-xs-6 text-muted">答题时间:</div>
+                        <div class="col-xs-6 text-muted">考试题目:</div>
+                    </div>
+                    <div class="m-t-lg">
+                        <div class="col-xs-6 h6"><span class="text-warning">45</span>分钟</div>
+                        <div class="col-xs-6 h6"><span class="text-warning">30</span>道题</div>
+                    </div>
+
+                </div>
+
             </div>
 
             <div class="panel panel-body">
-                <span class="text-center text-danger h4">
-                    ---答题承诺---
+                <img style="position: absolute;height: 50px;margin-top: -25px;margin-left:-165px; " src="assets/images/Paperclip.png">
+
+                <span class="text-center text-warning  h4 m-t-md">
+                    答题承诺
                 </span>
-                <div class="text-left">
+                <div class="text-left m-t-sm center-block col-xs-12">
                     <br/>
                     <p>1.请独自完成所有试题，答题时请不要查阅任何资料。</p>
                     <p>2.对试题保密，不记录传播任何试题</p>
                     <p>3.如有虚假作答作弊行为，后果自行承担</p>
                     <p>4.请独自完成所有试题，答题时请不要查阅任何资料。</p>
+                    <p>5.请独自完成所有试题，答题时请不要查阅任何资料。</p>
+                    <p>6.对试题保密，不记录传播任何试题</p>
+                    <p>7.如有虚假作答作弊行为，后果自行承担</p>
+                    <p>8.请独自完成所有试题，答题时请不要查阅任何资料。</p>
                 </div>
+
             </div>
             <a href="5.%20Testing.html">
                 <button type="submit" class="btn btn-default btn-primary center-block">进入考试</button>

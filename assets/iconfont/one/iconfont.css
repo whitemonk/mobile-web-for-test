@@ -15,6 +15,7 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-ui:before { content: "\e608"; }
 .icon-2:before { content: "\e600"; }
 .icon-3:before { content: "\e601"; }
 .icon-1:before { content: "\e602"; }

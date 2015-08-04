@@ -23,7 +23,7 @@
     <div class="row">
         <!--基础表单-->
         <div class="col-xs-12">
-            <form class="form-inline">
+            <form class="form-inline demo-form" role="form" action="3.%20Choose%20a%20job.html">
                 <fieldset>
                     <!--<legend>登录窗口</legend>-->
                     <div class="form-group">
@@ -33,21 +33,23 @@
                             </span>
                             <input class="col col-md-10 form-control" placeholder="请输入考试编码" type="text"></div>
                         </div>
-
-
                     <a href="3. Choose a job.html">
                         <button type="button" class="btn btn-default btn-primary center-block">选择试卷</button>
                     </a>
-
-
-
                 </fieldset>
             </form>
         </div>
     </div>
 </div>
 
-
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#demo-Form").validate();
+//    message(){
+//
+//        }
+    });
+</script>
 
 
 
